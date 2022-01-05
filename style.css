@@ -1,0 +1,12 @@
+* {
+  border: 0px;
+  margin: 0px;
+}
+
+.dream {
+  display: flex;
+}
+
+.sml-img {
+  width: 100px;
+}
