@@ -7,6 +7,34 @@
   display: flex;
 }
 
+main {
+  margin: 20px 40px;
+}
+
 .sml-img {
   width: 100px;
+}
+
+.img-main {
+  width: 400px;
+}
+
+.area {
+  width: 50%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  margin: 20px 40px;
+}
+
+.footer-style {
+  color: #e9b1a9;
+}
+
+.skill {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
 }
