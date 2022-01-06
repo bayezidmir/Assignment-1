@@ -29,6 +29,7 @@
 
 .skills {
   padding-top: 0;
+  padding-bottom: 20px;
 }
 h1 {
   font-size: 2.44rem;
@@ -129,4 +130,6 @@ footer {
   background-size: 150px;
   background-repeat: no-repeat;
   background-position-y: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
