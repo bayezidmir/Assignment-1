@@ -45,7 +45,15 @@ p {
 
 .img-main {
   width: 85%;
-  border-radius: 10px;
+  border-radius: 5px;
+}
+
+.dedi-img {
+  float: left;
+}
+
+.com-img {
+  float: right;
 }
 
 .area {
@@ -66,10 +74,6 @@ footer {
   color: white;
   padding: 15px 40px;
   text-align: center;
-}
-
-.footer-style {
-  color: #ffbe76;
 }
 
 .skill {
@@ -107,4 +111,19 @@ footer {
   background-color: rgba(167, 139, 113, 0.3);
   padding: 10px;
   border-radius: 4px;
+}
+
+.title-text {
+  border-left: 5px solid;
+  border-image: linear-gradient(#ff9a02, #9b9894);
+  border-image-slice: 1;
+  padding: 0 10px;
+}
+
+.colored-text {
+  color: #f19b39;
+}
+
+.mission-title {
+  text-align: center;
 }
