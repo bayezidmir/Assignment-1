@@ -8,6 +8,7 @@
 0.8rem/12.80px	A Visual Type Scale
 0.64rem/10.24px	A Visual Type Scale
 0.512rem/8.19px	A Visual Type Scale */
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 * {
@@ -18,6 +19,7 @@
 
 .dream {
   display: flex;
+  flex-flow: row;
 }
 
 main {
@@ -42,13 +44,21 @@ p {
 }
 
 .img-main {
-  width: 70%;
+  width: 85%;
   border-radius: 10px;
 }
 
 .area {
   width: 50%;
-  margin-right: 50px;
+  margin-right: 70px;
+}
+
+.goal-image,
+.goals,
+.dedication-text,
+.community-image {
+  margin-right: 0;
+  float: right;
 }
 
 footer {
@@ -69,8 +79,8 @@ footer {
 }
 
 .btn {
-  padding: 8px;
-  background-color: #ffbe76;
+  padding: 8px 15px;
+  background-color: #f19b39;
   text-decoration: none;
   color: white;
   font-style: bold;
@@ -85,16 +95,16 @@ footer {
 .mission {
   background-color: rgba(186, 220, 88, 0.3);
   padding: 10px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .vision {
   background-color: rgba(255, 190, 118, 0.3);
   padding: 10px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 .goals {
-  background-color: rgba(127, 143, 166, 0.3);
+  background-color: rgba(167, 139, 113, 0.3);
   padding: 10px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
