@@ -10,7 +10,6 @@
 0.512rem/8.19px	A Visual Type Scale */
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-
 * {
   border: 0px;
   margin: 0px;
@@ -20,15 +19,12 @@
 .dream {
   display: flex;
   flex-flow: row;
+  gap: 15px;
+  margin-bottom: 60px;
 }
 
 main {
-  margin: 20px 40px;
-  padding: 60px;
-}
-
-section {
-  margin-bottom: 60px;
+  padding: 80px 100px;
 }
 
 h1 {
@@ -39,12 +35,13 @@ h1 {
 p {
   line-height: 1.563rem;
 }
+
 .sml-img {
   width: 100px;
 }
 
 .img-main {
-  width: 85%;
+  width: 450px;
   border-radius: 5px;
 }
 
@@ -56,23 +53,10 @@ p {
   float: right;
 }
 
-.area {
-  width: 50%;
-  margin-right: 70px;
-}
-
-.goal-image,
-.goals,
-.dedication-text,
-.community-image {
-  margin-right: 0;
-  float: right;
-}
-
 footer {
   background-color: black;
   color: white;
-  padding: 15px 40px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -122,6 +106,10 @@ footer {
 
 .colored-text {
   color: #f19b39;
+}
+
+.section-text {
+  padding: 7px;
 }
 
 .mission-title {
