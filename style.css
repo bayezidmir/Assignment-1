@@ -1,6 +1,19 @@
+/* 
+3.052rem/48.83px	A Visual Type Scale
+2.441rem/39.06px	A Visual Type Scale
+1.953rem/31.25px	A Visual Type Scale
+1.563rem/25.00px	A Visual Type Scale
+1.25rem/20.00px	A Visual Type Scale
+1rem/16.00px	A Visual Type Scale
+0.8rem/12.80px	A Visual Type Scale
+0.64rem/10.24px	A Visual Type Scale
+0.512rem/8.19px	A Visual Type Scale */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
 * {
   border: 0px;
   margin: 0px;
+  font-family: "Lato", sans-serif;
 }
 
 .dream {
@@ -9,32 +22,79 @@
 
 main {
   margin: 20px 40px;
+  padding: 60px;
 }
 
+section {
+  margin-bottom: 60px;
+}
+
+h1 {
+  font-size: 2.44rem;
+  margin: 1.25rem 0;
+}
+
+p {
+  line-height: 1.563rem;
+}
 .sml-img {
   width: 100px;
 }
 
 .img-main {
-  width: 400px;
+  width: 70%;
+  border-radius: 10px;
 }
 
 .area {
   width: 50%;
+  margin-right: 50px;
 }
 
 footer {
   background-color: black;
   color: white;
-  margin: 20px 40px;
+  padding: 15px 40px;
+  text-align: center;
 }
 
 .footer-style {
-  color: #e9b1a9;
+  color: #ffbe76;
 }
 
 .skill {
   width: 160px;
   display: flex;
   justify-content: space-between;
+}
+
+.btn {
+  padding: 8px;
+  background-color: #ffbe76;
+  text-decoration: none;
+  color: white;
+  font-style: bold;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+
+.button {
+  margin: 20px 0;
+}
+
+.mission {
+  background-color: rgba(186, 220, 88, 0.3);
+  padding: 10px;
+  border-radius: 2px;
+}
+.vision {
+  background-color: rgba(255, 190, 118, 0.3);
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.goals {
+  background-color: rgba(127, 143, 166, 0.3);
+  padding: 10px;
+  border-radius: 2px;
 }
